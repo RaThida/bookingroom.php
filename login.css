@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(70, 7, 7, 0.937);
+  }
+*{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 90%;
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+.card-header{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.login-box{
+   
+    text-align:left;
+    width:100%;
+    height:100%;
+    margin: 10px;
+    padding:10px 15px 10px 10px;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+
+}
+body {
+    margin: 100px auto;
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #003947;
+    text-align: left;
+    background-color: rgb(216, 239, 247);
+  }
+.card-body{
+    margin:100px auto;
+    width:100%;
+    height:100%;
+    border-radius:100%;
+    box-sizing:unset;
+    box-shadow: 0px 0px 3px #96f14b,
+    0px 0px 0px 5px #56fff9,
+    8px 8px 15px #f5f83c,
+    -8px -8px 15px rgb(89, 121, 249);
+}
+.card-body #login-frm{
+    margin:50px auto;
+    width: 100%;
+    height:100%;
+    font-size: 1.2rem;
+    border:antiquewhite;
+    outline:cornsilk;
+    background:rgb(206, 237, 241);;
+    padding-right: 10px 15px 10px 10px;
+}
+.form-control{
+   padding-left:10px;
+   margin-bottom:20px;
+   border-radius:20px;
+   color:rgb(87, 37, 37);
+}
+.col-4 .btn{
+    background-color: #c5e6f4;
+    color: rgb(0, 15, 224);
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px #96e4e9,
+        -3px -3px 3px rgb(246, 221, 221);
+    letter-spacing: 1.5px;
+
+}
+.col-4 .btn:hover{
+    background-color: #11ff88;
+}
+
+.login-logo,
+.register-logo {
+  font-size: 2.1rem;
+  font-weight: 300;
+  margin-bottom: .9rem;
+  text-align: center;
+}
+
+.login-logo a,
+.register-logo a {
+  color:darkblue;
+  width:100%;
+  height:80px;
+}
+
+
+
+
+
+
