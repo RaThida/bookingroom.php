@@ -1,0 +1,102 @@
+.card{
+    background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+    border-radius: 25px;
+
+}
+.bg-body{
+    background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+    height:1000px;
+    width: 1000px auto;
+}
+.card-header .card-title{
+    color:rgb(84, 0, 0);
+    font-weight: 1000;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.card-body .container-fluid .container-fluid .table {
+    
+    font-weight: 500;
+    color:blue;
+    border: solid darkgreen;
+}
+.table .tr{
+    border: solid darkgreen;
+  
+}
+.card-header .card-tools .btn{
+    color:blue;
+}
+.btn{
+    background-color: #a3ddf5;
+    color: rgb(0, 15, 224);
+    
+    font-weight: 500;
+
+}
+.btn:hover{
+    background-color: #83ded3;
+    color: rgb(0, 15, 224);
+}
+.btn .sr-only{
+    color:blue;
+}
+.dropdown-menu .dropdown-item {
+   color:blue;
+   
+   font-weight: 1000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat;
+
+
+
+
+
+.bg-body {
+  animation: scroll 80s linear infinite;
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111;
+  color: rgb(18, 11, 237);
+  font-weight: 500;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  
+}
+
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

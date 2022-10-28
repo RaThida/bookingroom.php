@@ -1,0 +1,84 @@
+ .card{
+    background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+    border-radius: 15px;
+    width:auto;
+    height:100px auto;
+
+}
+.card .card-header .card-title{
+    color:rgb(0, 0, 255);
+    font-size:1.5rem;
+    font-weight:1000;
+}
+.card .card-body #assembly-form .form-group .control-label {
+    color:blue;
+    font-size:1.3rem;
+    font-weight:500;
+    border:#cc95c0;
+}
+
+.card .card-body #assembly-form .form-group .form-control{
+    border: solid #52d8e1;
+    background:#cae9f1;
+    color:blue;
+}
+
+.card .card-body #assembly-form .form-group .custom-select{
+    border: solid #52d8e1;
+    background:#d7eced;
+    color:blue;
+}
+.card .card-footer .btn{
+    background:rgb(164, 255, 255);
+    color:darkblue;
+    border: solid #52d8e1;
+}
+.card .card-footer .btn:hover{
+    background:rgb(53, 178, 178);
+    color:rgb(2, 2, 219);
+}
+.bg-body {
+    animation: scroll 80s linear infinite;
+    background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111;
+    color: rgb(18, 11, 237);
+    font-weight: 500;
+    height: 90vh;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    
+  }
+  
+  @keyframes scroll {
+     100%{
+      background-position:0px -3000px;
+    }
+  }
+  
+  @media (prefers-reduced-motion) {
+    .wrapper {
+      animation: scroll 200s linear infinite;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
